@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsJualan"
+    android:background="#E3C6BD">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardviews"
+        android:layout_width="match_parent"
+        app:cardCornerRadius="15dp"
+        android:layout_margin = "20dp"
+        android:background="@drawable/background_card_menu"
+        android:layout_height="200dp"
+        app:cardElevation="7dp"
+        >
+        <ImageView
+            android:id="@+id/fotodetail"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:src="@drawable/neymar6"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            tools:ignore="ContentDescription"
+            />
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/ketdetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginTop="230dp"
+        android:fontFamily="@font/poppinsregular"
+        android:text="ketfoto"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:textSize="10dp" />
+    <TextView
+        android:id="@+id/juduldetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20sp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="JUDUL"
+        android:layout_marginRight="20sp"
+        android:layout_below="@id/ketdetail"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/ketfotodetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20sp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppinsregular"
+        android:text="Ketrangan"
+        android:layout_marginRight="20sp"
+        android:layout_below="@id/juduldetail"
+        android:textColor="#000000"
+        android:justificationMode="inter_word"
+        android:textSize="15dp" />
+
+
+</RelativeLayout>

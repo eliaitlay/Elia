@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "649107061182",
+    "project_id": "lay-mobile-compoting",
+    "storage_bucket": "lay-mobile-compoting.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:649107061182:android:8a96c46d0d6cf52f12e1ef",
+        "android_client_info": {
+          "package_name": "com.example.eliaitlay"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkb12wwWci998K-Abyk83q3B1dBrj23eY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

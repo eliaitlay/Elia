@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loggg"
+    tools:context=".Loginpage">
+
+    <TextView
+        android:id="@+id/judull"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome Back"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:fontFamily="@font/poppinsbold"
+        tools:ignore="HardcodedText,VisualLintOverlap" />
+
+    <TextView
+        android:id="@+id/judulll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/judull"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-10dp"
+        android:fontFamily="@font/poppinsregular"
+        android:text="Please Registerpage "
+        android:textSize="20sp"
+        tools:ignore="HardcodedText,TextSizeCheck,VisualLintOverlap" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:id="@+id/userregister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginRight="30dp"
+            android:hint="Username"
+            android:minHeight="48dp"
+            android:paddingStart="40sp"
+            tools:ignore="Autofill,HardcodedText,RtlSymmetry,TextContrastCheck,TextFields,VisualLintTextFieldSize" />
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="-40dp"
+            android:layout_marginStart="30dp"
+            android:src="@drawable/userss"
+            tools:ignore="ContentDescription" />
+
+        <EditText
+            android:id="@+id/emailregister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="40sp"
+            android:layout_marginRight="30dp"
+            android:hint="Email"
+            android:importantForAutofill="no"
+            android:minHeight="48dp"
+            android:paddingStart="40dp"
+            tools:ignore="HardcodedText,RtlSymmetry,TextFields,VisualLintTextFieldSize" />
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="-40dp"
+            android:layout_marginStart="30dp"
+            android:src="@drawable/email"
+            tools:ignore="ContentDescription" />
+
+        <EditText
+            android:id="@+id/passwordregister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginLeft="30dp"
+            android:inputType="textPassword"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="30dp"
+            android:hint="Password"
+            android:minHeight="48dp"
+            android:paddingStart="40sp"
+            tools:ignore="Autofill,HardcodedText,RtlSymmetry,TextFields,VisualLintTextFieldSize" />
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="-40dp"
+            android:layout_marginStart="30dp"
+            android:src="@drawable/keys"
+            tools:ignore="ContentDescription" />
+
+        <EditText
+            android:id="@+id/passwordconfir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="40sp"
+            android:inputType="textPassword"
+            android:layout_marginRight="30dp"
+            android:hint="Confir Password"
+            android:minHeight="48dp"
+            android:paddingStart="40dp"
+            tools:ignore="Autofill,HardcodedText,RtlSymmetry,TextContrastCheck,TextFields,VisualLintTextFieldSize" />
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="-40dp"
+            android:layout_marginStart="30dp"
+            android:src="@drawable/keys"
+            tools:ignore="ContentDescription" />
+
+
+        <Button
+            android:id="@+id/btnregister"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:text="Creat Now"
+            android:background="@drawable/buton_saya"
+            android:fontFamily="@font/poppinsbold"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sudah punya akun??"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppinsregular"
+            android:textColor="#000000"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/linktologin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="-30dp"
+            android:layout_marginRight="90dp"
+            android:fontFamily="@font/poppinsbold"
+            android:text="Login"
+            android:textColor="#3F51B5"
+            android:textSize="17sp"
+            tools:ignore="HardcodedText,RtlHardcoded,TextSizeCheck" />
+
+    </LinearLayout>
+
+</RelativeLayout>
